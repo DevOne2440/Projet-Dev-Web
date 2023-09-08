@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap');
+
+/* Style pour tout le site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le corps du site */
+body {
+    font-family: Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C08261;
+    min-height: 100vh;
+}
+
+/* Styles pour la navbar */
+nav {
+    background-color: #9A3B3B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+    
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-links li:hover {
+    text-decoration: underline ;
+    transition: 0.5s ease-out;
+}
+nav ul li a:hover {
+    color: #c3772fa2;
+    transition: 0.3s ease-out;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+/* Styles pour le header */
+header {
+    text-align: center;
+    background-size: cover;
+    color: #333;
+    height: auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    text-shadow: 5px 5px 9px #00000026;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+.button-header {
+    margin-top: 2rem;
+
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9a3b3b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #9a3b3b70;
+}
+
+.products-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9a3b3b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.products-button:hover {
+    background-color: #9a3b3b5d;
+}
+.image-cover {
+    background: url("https://media.discordapp.net/attachments/1148978710406500475/1149316036320034896/vue-dessus-grains-cafe-espace-fond-blanc-pour-texte.jpg?width=1404&height=936") center/cover;
+    filter: opacity(40%);
+    height: 550px;
+}
+
+/* Styles pour la section des produits */
+.products {
+    margin-top: 3vh;
+}
+.product-coffee {
+    height: 500px;
+}
+.product-coffee ul {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+
+.coffee1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coffee2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coffee3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    
+}
+.coffee4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.best-sales {
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.best-sales ul {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+
+}
+.img-sales ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+.sales1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sales2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sales3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.sales4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.product1 img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px -6px 15px 7px #9a3b32;
+
+}
+.product2 img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px -6px 15px 7px #9a3b32;
+}
+.product3 img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px -6px 15px 7px #9a3b32;
+}
+.product4 img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px -6px 15px 7px #9a3b32;
+}
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.25rem;
+}
+
+.add-to-cart {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Style pour la page cart */
+.cart-block {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container h2 {
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    border: 3px solid;
+    background: white;
+}
+.cart-items {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    background: #9a3b3b70;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.checkout-button {
+    position: absolute;
+    bottom: 210px;
+}
+
+.cart img {
+    width: 30px;
+}
+
+.cart-count {
+    position: absolute;
+    top: 22px;
+    right: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Style pour la page contact et le formulaire */
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color: #be805982;
+
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1872D9;
+  }
+  
+  .container-form {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#853535a8;
+    padding:20px;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 440px;
+    margin:50px auto;
+    filter: drop-shadow(0 0 1.5rem whitesmoke);
+    color: white;
+  }
+  .container-form h1  {
+    color: white;
+    width: 100%;
+  }
+
+/* Style pour la partie about  */
+.about {
+    min-height: 100vh;
+
+}
+.about-container h1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin-top: 3rem;
+        flex-direction: column;
+        font-size: 3.5rem;
+}
+.about-container p {
+    max-width: 500px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+
+}
+/* .img-container {
+    display: grid;
+    justify-content: center;
+    filter: drop-shadow(0 0 0.6rem whitesmoke);
+    border: 2px solid; 
+    border-radius: 5px 5px;
+    height: 50%; 
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+    align-content: center;
+}   */
+
+
+.contour {
+    display: flex;
+    border: 5px solid;
+    background: white;
+    border-radius: 15px;
+}
+
+/* Style pour le footer */
+.footer {
+    background-color: #E2C799;
+    height: 80px;
+    padding: 10px;
+}
+.footer-left-container {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}

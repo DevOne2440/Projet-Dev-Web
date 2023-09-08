@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Café</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+   
+   <!-- Navbar -->
+   <nav>
+    <div class="logo">
+        <a href="./index.html">
+        <img src="./img/Logoheader.png" alt="Mister Café">
+        </a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./product.html">Nos produits</a></li>
+        <li><a href="./cart.html">Panier</a></li>
+
+        <li><a href="./about.html">À Propos</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+
+    </ul>
+        <div class="cart">
+            <a href="./cart.html"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/shopping-cart.png" alt="shopping-cart" alt="Panier"></a>
+
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <img width="100%" height="50%" src="./img/header-image.png" alt="Mister Café - Éveillez vos sens à chaque goutte !">
+
+        <h1>Éveillez vos sens à chaque goutte !</h1>
+
+
+    </header>
+
+    <!-- Body -->
+    <div class="container-form">
+        <h1>Formulaire de contact</h1>
+        <form action="/action_page.php">
+          <label for="fname">Nom & prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+      
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+      
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+      
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+
+     <!-- Footer -->
+     <section class="footer">
+        <footer>
+            <div class="footer-left-container">
+
+                <p>Mentions Légales</p>
+                <p>CGV</p>
+                <p>Cookies</p>
+                </div>
+            <div class="footer-right"></div>
+        </footer>
+    </section>
+    <!-- Scripts JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
